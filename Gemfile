@@ -2,7 +2,7 @@ source 'http://rubygems.org'
 
 gemspec
 
-gem 'rails', '~> 4.0'
+gem 'rails', "~> #{ENV['RAILS_VERSION'] || '3.2'}"
 gem 'rspec', '~> 2.8'
 gem 'rspec-rails'
 gem 'timecop'
